@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Limor | Premium Abayas</title>
+    <meta
+      name="description"
+      content="Limor creates premium abayas with refined silhouettes, luxurious fabrics, and timeless elegance."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="intro-screen" aria-hidden="true">
+      <div class="intro-backdrop"></div>
+      <div class="intro-frame">
+        <div class="intro-glow"></div>
+        <div class="intro-shimmer"></div>
+        <img class="intro-logo" src="assets/limor-logo-web.png" alt="Limor Premium Abayas" />
+      </div>
+    </div>
+
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="#home" aria-label="Limor home">
+          <img src="assets/limor-logo-web.png" alt="Limor logo" />
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Open menu">
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav">
+          <a href="#collection">Collection</a>
+          <a href="#story">Story</a>
+          <a href="#craft">Craft</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main id="home">
+        <section class="hero reveal">
+          <div class="hero-copy">
+            <img class="hero-wordmark" src="assets/limor-logo-web.png" alt="Limor wordmark" />
+            <p class="eyebrow">New Signature Edit</p>
+            <h1>Luxury abayas shaped by elegance, softness, and modern refinement.</h1>
+            <p class="hero-text">
+              Limor presents premium abayas for women who want timeless modestwear with an elevated
+              presence. Each piece is designed to flow beautifully, feel exclusive, and leave a
+              graceful impression from the first look.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-gold" href="#collection">Explore Collection</a>
+              <a class="button button-ghost" href="#contact">Book Private Order</a>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <div class="hero-card-inner">
+              <p class="card-label">Atelier Notes</p>
+              <h3>Premium Abayas</h3>
+              <ul>
+                <li>Flowing silhouettes with premium finishing</li>
+                <li>Rich, elegant palette inspired by your brand identity</li>
+                <li>Perfect for Eid, occasions, and elevated everyday wear</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="feature-strip reveal">
+          <div>
+            <span>Luxury Fabrics</span>
+            <p>Selected for movement, softness, and lasting structure.</p>
+          </div>
+          <div>
+            <span>Tailored Modesty</span>
+            <p>Elegant cuts that balance comfort with a polished silhouette.</p>
+          </div>
+          <div>
+            <span>Private Orders</span>
+            <p>Made for clients who want exclusivity and a signature finish.</p>
+          </div>
+        </section>
+
+        <section class="collection reveal" id="collection">
+          <div class="section-heading">
+            <p class="eyebrow">Collection Highlights</p>
+            <h2>Statement pieces crafted with quiet confidence.</h2>
+          </div>
+
+          <div class="collection-grid">
+            <article class="product-card" data-product="crimson-veil">
+              <div class="product-visual product-visual-one product-photo-card"></div>
+              <div class="product-copy">
+                <h3>Embroidered Abaya</h3>
+                <p>
+                  A premium embroidered abaya with elegant floral detailing, a flowing silhouette,
+                  and refined scalloped sleeve finishing.
+                </p>
+                <div class="product-meta">
+                  <span>Rs 2499</span>
+                  <button class="button button-gold product-trigger" type="button" data-product="crimson-veil">
+                    View Details
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-product="golden-hour">
+              <div class="product-visual product-visual-two"></div>
+              <div class="product-copy">
+                <h3>The Golden Hour</h3>
+                <p>
+                  Minimal, luminous, and effortlessly elevated with subtle contrast accents and a
+                  modern line.
+                </p>
+                <div class="product-meta">
+                  <span>AED 740</span>
+                  <button class="button button-gold product-trigger" type="button" data-product="golden-hour">
+                    View Details
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-product="noir-silk">
+              <div class="product-visual product-visual-three"></div>
+              <div class="product-copy">
+                <h3>The Noir Silk Edit</h3>
+                <p>
+                  Designed for women who prefer timeless sophistication with a couture-inspired
+                  finish.
+                </p>
+                <div class="product-meta">
+                  <span>AED 820</span>
+                  <button class="button button-gold product-trigger" type="button" data-product="noir-silk">
+                    View Details
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="story reveal" id="story">
+          <div class="story-panel">
+            <p class="eyebrow">The Limor Story</p>
+            <h2>Where modest fashion meets a luxury editorial presence.</h2>
+            <p>
+              Built around elegance, confidence, and femininity, Limor is more than a label. It is
+              a refined expression of premium abaya design for women who appreciate detail, quality,
+              and presence.
+            </p>
+          </div>
+
+          <div class="quote-panel">
+            <p>
+              Each Limor piece is imagined to move beautifully, photograph exquisitely, and leave a
+              lasting impression.
+            </p>
+          </div>
+        </section>
+
+        <section class="craft reveal" id="craft">
+          <div class="section-heading">
+            <p class="eyebrow">Craftsmanship</p>
+            <h2>The premium details your clients will feel instantly.</h2>
+          </div>
+
+          <div class="craft-grid">
+            <div class="craft-card">
+              <span>01</span>
+              <h3>Fabric Direction</h3>
+              <p>Light-catching materials chosen for softness, movement, and luxurious fall.</p>
+            </div>
+            <div class="craft-card">
+              <span>02</span>
+              <h3>Signature Finishing</h3>
+              <p>Clean seams, polished hems, and elevated touches that feel exclusive.</p>
+            </div>
+            <div class="craft-card">
+              <span>03</span>
+              <h3>Elegant Experience</h3>
+              <p>From first impression to final fit, every detail is shaped to feel premium.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact reveal" id="contact">
+          <div class="contact-copy">
+            <p class="eyebrow">Private Orders & Inquiries</p>
+            <h2>Ready to launch Limor with a memorable digital presence.</h2>
+            <p>
+              Replace the contact details below with your WhatsApp number, Instagram, and order
+              email when you are ready to go live.
+            </p>
+          </div>
+
+          <div class="contact-card">
+            <p><strong>Instagram</strong><br />@limor.abayas</p>
+            <p><strong>Email</strong><br />hello@limor.com</p>
+            <p><strong>Appointments</strong><br />Dubai | Private fittings available</p>
+            <a class="button button-gold" href="mailto:hello@limor.com">Start Your Order</a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Limor Premium Abayas</p>
+        <p>Luxury modestwear designed with timeless elegance.</p>
+      </footer>
+    </div>
+
+    <div class="product-modal" id="product-modal" aria-hidden="true">
+      <div class="modal-overlay" data-close-modal="true"></div>
+      <div class="modal-panel">
+        <button class="modal-close" type="button" aria-label="Close" data-close-modal="true">×</button>
+
+        <div class="modal-view modal-product-view is-active">
+          <div class="modal-product-layout">
+            <div class="modal-product-gallery">
+              <div class="modal-product-visual" id="modal-visual"></div>
+              <div class="modal-thumbnails" id="modal-thumbnails"></div>
+            </div>
+            <div class="modal-product-copy">
+              <p class="eyebrow">Limor Collection</p>
+              <h2 id="modal-title">The Crimson Veil</h2>
+              <p class="modal-price" id="modal-price">AED 690</p>
+              <p class="modal-description" id="modal-description"></p>
+
+              <div class="modal-detail-grid">
+                <div><span>Fabric</span><p id="modal-fabric"></p></div>
+                <div><span>Color</span><p id="modal-color"></p></div>
+                <div><span>Sizes</span><p id="modal-sizes"></p></div>
+                <div><span>Delivery</span><p id="modal-delivery"></p></div>
+              </div>
+
+              <div class="payment-preview">
+                <span>Payment Methods</span>
+                <p>Cash on delivery, bank transfer, card payment link, or WhatsApp confirmation.</p>
+              </div>
+
+              <div class="modal-actions">
+                <button class="button button-gold" id="start-order" type="button">Order This Abaya</button>
+                <button class="button button-ghost" type="button" data-close-modal="true">Continue Browsing</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-view modal-order-view">
+          <div class="order-heading">
+            <p class="eyebrow">Order Request</p>
+            <h2>Complete your Limor order</h2>
+            <p id="order-product-name">Ordering: The Crimson Veil</p>
+          </div>
+
+          <form class="order-form" id="order-form">
+            <div class="form-grid">
+              <label>Full Name<input type="text" name="customer_name" required /></label>
+              <label>Phone / WhatsApp<input type="tel" name="customer_phone" required /></label>
+              <label>Email<input type="email" name="customer_email" required /></label>
+              <label>Preferred Size<select name="customer_size" id="order-size" required></select></label>
+              <label class="full-width">Delivery Address<textarea name="customer_address" rows="3" required></textarea></label>
+              <label class="full-width">Order Notes<textarea name="customer_notes" rows="3" placeholder="Color notes, sleeve length, occasion, or custom request"></textarea></label>
+            </div>
+
+            <div class="payment-methods">
+              <span>Choose Payment Method</span>
+              <label><input type="radio" name="payment_method" value="Cash on Delivery" checked /> Cash on Delivery</label>
+              <label><input type="radio" name="payment_method" value="Bank Transfer" /> Bank Transfer</label>
+              <label><input type="radio" name="payment_method" value="Card Payment Link" /> Card Payment Link</label>
+              <label><input type="radio" name="payment_method" value="WhatsApp Confirmation" /> WhatsApp Confirmation</label>
+            </div>
+
+            <div class="order-summary">
+              <div><span>Selected Abaya</span><p id="order-summary-product"></p></div>
+              <div><span>Price</span><p id="order-summary-price"></p></div>
+            </div>
+
+            <div class="modal-actions">
+              <button class="button button-gold" type="submit">Confirm Order</button>
+              <button class="button button-ghost" type="button" id="back-to-details">Back to Details</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="modal-view modal-confirmation-view">
+          <div class="confirmation-card">
+            <p class="eyebrow">Order Confirmed</p>
+            <h2>Your Limor request has been prepared.</h2>
+            <p id="confirmation-text">
+              We have received your order request and payment preference. Replace this demo step with
+              your WhatsApp, email, or real checkout integration when ready.
+            </p>
+            <div class="modal-actions">
+              <button class="button button-gold" type="button" data-close-modal="true">Close</button>
+              <a class="button button-ghost" href="mailto:hello@limor.com">Contact Atelier</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
