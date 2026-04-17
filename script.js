@@ -34,8 +34,8 @@ const products = {
     delivery: "Around 7-14 days",
     visualClass: "product-photo-card",
     images: [
-      "assets/embroidered-abaya-1.png",
-      "assets/embroidered-abaya-2.png",
+      "/embroidered-abaya-1.png",
+      "/embroidered-abaya-2.png",
     ],
   },
   "golden-hour": {
